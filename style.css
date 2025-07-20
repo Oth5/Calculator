@@ -1,9 +1,11 @@
-#calculator{
-display: grid;
-grid-template-columns: repeat(4,1fr);
-gap: 15px;
-padding: 20px;
+#calculator {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+padding: 25px;
+max-width: 500px;
 }
+
 button{
 border-radius: 50px;
 height: 100px;
